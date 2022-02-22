@@ -1,1 +1,24 @@
+body {
+    line-height: 24px;
+    color: #9E9E9E;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    background: #000;
+}
+a, a:visited,a:hover{
+    text-decoration: none;
+    color:#cccccc;
+    font-weight: 200;
+}
+ul, li {
+    list-style: none;
+    margin-top: 15px;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+container {
+    max-width: 1200px;
+}
 

@@ -40,10 +40,7 @@ class AuthController extends Controller
 
      public function logIn(LoginUserRequest $request)
     {
-        $data = $request->validate([
-            "login" => ["required"],
-            "password" => ["required"]
-        ]);
+        $data = [$request->get('username'),$request->get('password')];
 
         if (auth("web")->attempt($data)) {
             return redirect(route("main"));
