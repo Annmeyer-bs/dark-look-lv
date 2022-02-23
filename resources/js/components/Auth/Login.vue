@@ -1,5 +1,5 @@
 <template>
-<div class="col-md-6 col-md-offset-3">
+<div class="">
 
                 <div class="panel-body">
                   <div class="row">
@@ -59,5 +59,24 @@ label {
     padding: 10px 20px;
     text-transform: uppercase;
     font-weight: 500;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-body {
+    padding: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.text-center {
+    text-align: center;
+}
+.col-sm-offset-3 {
+    margin-left: 25%;
 }
 </style>

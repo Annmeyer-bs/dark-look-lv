@@ -122,10 +122,27 @@ li > a {
     color: #fff;
     text-transform: uppercase;
 }
-
+li {
+    margin-top: 0;
+}
+a:hover{
+    background: #fa4251;
+    color: white;
+}
 .navbar-collapse {
     display: flex;
     justify-content: center;
+    align-items: center;
     background: #424242;
+}
+#menu>li>a {
+    padding: 22px 18px;
+    border-radius: 0;
+    overflow: hidden;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-nav>li>a {
+    font-weight: 500;
 }
 </style>

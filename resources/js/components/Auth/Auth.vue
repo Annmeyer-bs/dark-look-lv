@@ -1,18 +1,17 @@
 <template>
-    <div>
+    <div class="auth ">
         <div class="panel-login panel">
             <div class="panel-heading">
-                <div class="row mb_20">
-                    <div class="col-xs-6">
+                <div class="mb_20 d-flex flex-row justify-content-between ">
+                    <div class="">
                         <a href="#" class="active" id="login-form-link">Login</a>
                     </div>
-                    <div class="col-xs-6">
+                    <div class="">
                         <a href="#" id="register-form-link" class="">Register</a>
                     </div>
                 </div>
                 <hr>
             </div>
-
             <login></login>
             <registration></registration>
         </div>
@@ -30,6 +29,10 @@ export default {
 </script>
 
 <style scoped>
+.auth {
+    margin-left: 25%;
+    width: 40%;
+}
 .panel-heading {
     padding: 10px 15px;
     border-bottom: 1px solid transparent;
@@ -42,7 +45,15 @@ export default {
     background-color: #fff;
     border: 1px solid transparent;
     border-radius: 4px;
-    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
-    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
 }
+a {
+    text-decoration: none;
+}
+a.active {
+    color: #000;
+}
+.mb_20 {
+    margin-bottom: 20px;
+}
+
 </style>
